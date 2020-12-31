@@ -1,0 +1,6 @@
+# Have to do a few things on the Mac for setup
+
+brew install libusb
+python3 -m pip install pyusb
+
+# python3 ../../tools/pydfu.py --vid 0x0483 --pid 0xDF11 -u build-PYBV11/firmware.dfu
